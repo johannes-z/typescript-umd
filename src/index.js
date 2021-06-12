@@ -1,5 +1,3 @@
-import { transpile } from "typescript";
+import './polyfills'
 
-export {
-  transpile
-}
+export { transpile, transpileModule } from "typescript"
