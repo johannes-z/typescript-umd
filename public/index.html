@@ -12,7 +12,7 @@
   <script>
     // require(['./build.js'], function (typescript) {
       console.log(typescript);
-      console.log(typescript.transpile("const t: string = 'test'; console.log(t)"));
+      console.log(typescript.transpile("(() => { const t: string = 'test'; console.log(t) })()"));
     // })
   </script>
 </body>
